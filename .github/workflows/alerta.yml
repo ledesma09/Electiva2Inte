@@ -16,7 +16,7 @@ jobs:
 
       # 2. Ejecutar el Hola Mundo en Python
       - name: Run Hola Mundo
-        run: javascript6 script.js
+        run: javascript script.js
 
       # 3. Enviar notificación enriquecida a ntfy.sh
       - name: Send notification to ntfy.sh
